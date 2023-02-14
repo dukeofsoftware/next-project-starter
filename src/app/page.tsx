@@ -1,7 +1,10 @@
+import { hello } from '@/utils/constants';
+import Logo from '@/assets/Logo';
 export default function Home() {
   return (
     <div>
-      <h1 className="text-blue-600"> Hello!</h1>
+      <Logo />
+      <h1 className="text-blue-600"> {hello}</h1>
     </div>
   );
 }
